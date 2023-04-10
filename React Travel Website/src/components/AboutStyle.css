@@ -1,0 +1,25 @@
+.about {
+  margin: 4rem 6rem;
+}
+.about div {
+  background-color: #eee;
+  color: #000;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem solid #fff;
+}
+.about h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.about p {
+  margin: 0.7rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    text-align: center;
+    margin: 4rem 2rem;
+  }
+}
